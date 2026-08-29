@@ -1,3 +1,5 @@
+$comment = Read-Host "Enter commit comment"
+
 git add .
-git commit -m "Update notebook"
+git commit -m "$comment"
 git push
